@@ -11,9 +11,9 @@ export default function App() {
   return (
     <NativeBaseProvider>
       <StatusBar style="auto" hidden />
-      <AppContainer>
-        <Schedule />
-      </AppContainer>
+      {/* <AppContainer> */}
+      <SignIn />
+      {/* </AppContainer> */}
     </NativeBaseProvider>
   );
 }
